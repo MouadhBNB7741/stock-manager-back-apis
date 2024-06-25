@@ -1,0 +1,29 @@
+php artisan serve to run the app //cd to it
+48
+gonna respect the developers for making this shit with c
+in class they use self fi blasat this 
+
+basic kima dajngo chaya django easier w better 
+literally django fel front chaya py more forgiving
+
+so in the app kayan models where you interact with the database 
+w 5dam with api matansach les import php is not smart nor have the static check
+to call them use the ClassName::methodUWonnaUse()
+
+ki tat9awad use $conn = new mysqli("root", "127.0.0.1:3307", "", "glproject");
+good examples:
+Route::get('/somewhere/{conf}', function ($conf) {
+    return response("good job {$conf}", 200);
+})->where("conf", "[0-9]+");
+
+route::get('/confiture', function () {
+    return response()->json([
+        "confituenum" => [
+            "attri1" => 'hello'
+        ]
+    ]);
+});
+
+you can modifie anything fi config w tbadal fel env
++ta3tih all your things kima django chaya better practice 5dam b mysqli object
+u have migrations here baby so give it a class and howa ydabar rasah
